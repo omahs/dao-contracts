@@ -44,7 +44,7 @@ pub struct InstantiateMsg {
     pub proposal_modules_instantiate_info: Vec<ModuleInstantiateInfo>,
 
     /// The items to instantiate this DAO with. Items are arbitrary
-    /// key-value pairs who's contents are controlled by governance.
+    /// key-value pairs whose contents are controlled by governance.
     ///
     /// It is an error to provide two items with the same key.
     pub initial_items: Option<Vec<InitialItem>>,
